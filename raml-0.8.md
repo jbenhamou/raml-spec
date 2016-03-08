@@ -532,7 +532,7 @@ baseUri: https://api.github.com
        type: integer
 ```
 
-If a URI parameter in a resource's relative URI is not explicitly described in a uriParameters property for that resource, it MUST still be treated as a URI parameter with defaults as specified in the Named Parameters section of this specification. Its type is "string", it is required, and its displayName is its name (i.e. without the surrounding curly brackets [{] and [}]). In the example below, the top-level resource has two URI parameters, "folderId" and "fileId".
+If a URI parameter in a resource's relative URI is not explicitly described in a uriParameters property for that resource, it MUST still be treated as a URI parameter with defaults as specified in the Named Parameters section of this specification. Its type is "string", it is required, and its displayName is its name (i.e. without the surrounding curly brackets [{] and [}]). In the example below, the nested */folder* resource key has two URI parameters, "folderId" and "fileId".
 
 ```yaml
 #%RAML 0.8
